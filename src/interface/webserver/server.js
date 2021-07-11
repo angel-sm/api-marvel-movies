@@ -3,6 +3,7 @@ import express from 'express'
 import morgan from 'morgan'
 import routes from '../routes'
 import { environment } from '../../config/environment'
+import cors from 'cors'
 
 export class Server {
   constructor () {
@@ -18,6 +19,7 @@ export class Server {
   setMiddleWares () {
     this.app.use(express.json())
     this.app.use(morgan('dev'))
+    this.app.use(cors())
   }
 
   start () {
