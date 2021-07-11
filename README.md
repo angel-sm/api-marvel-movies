@@ -19,8 +19,8 @@ El paso siguiente es renombrar el archivo `.env.example` que contiene las variab
 | Plugin | README |
 | ------ | ------ |
 | PORT |Puerto donde correra la aplicacion 4000 por default |
-| MONGO_URI_PROD | Uri para conectarse a mongo atlas de la base de produccion|
-| MONGO_URI_TEST | Uri para conectarse a mongo atlas de la base de test|
+| MONGO_URI_PROD | Uri para conectarse a la base de produccion|
+| MONGO_URI_TEST | Uri para conectarse a la base de test|
 
 Para iniciar la aplicacion en modo de desarrollo es el siguiente comando
 ```sh
